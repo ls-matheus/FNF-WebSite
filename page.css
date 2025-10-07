@@ -1,0 +1,10 @@
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.frame {
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 50px;
+}
