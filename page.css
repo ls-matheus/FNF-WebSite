@@ -7,7 +7,15 @@ html, body {
     align-items: center;
 }
 
+body {
+    background-image: url('download.jpg');
+    background-size: cover;      /* cobre toda a área */
+    background-repeat: no-repeat; /* não repete a imagem */
+    background-position: center;  /* centraliza a imagem */
+}
+  
+
 .frame {
-    border: 10px solid rgb(255, 0, 0);
+    border: 18px solid rgb(255, 255, 255);
     border-radius: 50px;
 }
