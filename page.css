@@ -2,14 +2,11 @@ html, body {
     margin: 0;
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 body {
-    background-image: url('download.jpg');
-    background-size: cover;      /* cobre toda a área */
+    background-image: url('fundo5.svg');
+    background-size: contain;
     background-repeat: no-repeat; /* não repete a imagem */
     background-position: center;  /* centraliza a imagem */
 }
@@ -18,4 +15,13 @@ body {
 .frame {
     border: 18px solid rgb(255, 255, 255);
     border-radius: 50px;
+}
+
+.box {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
